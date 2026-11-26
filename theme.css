@@ -1,0 +1,52 @@
+body {
+  background-color: #0b0b0d;
+  color: #eae6df;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #c8a258;
+}
+
+.intro {
+  color: #9e9a93;
+  margin-bottom: 3rem;
+}
+
+.cartes {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.carte {
+  width: 280px;
+  background-color: #1a1a20;
+  border: 1px solid #2c2c34;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #eae6df;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.carte:hover {
+  transform: translateY(-8px);
+  border-color: #c8a258;
+}
+
+.carte img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.carte h2 {
+  padding: 1rem;
+  font-size: 1.4rem;
+}
